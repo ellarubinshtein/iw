@@ -1,0 +1,452 @@
+WARNING: overwriting environment variables set in the machine
+overwriting variable ['LD_LIBRARY_PATH']
+Generated fx for function type = constant: [0, 0, 0, 0, 0, 0]
+oracleType =  0
+oracleValue =  0
+     ╭───╮╭───╮
+q0 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q1 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q2 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q3 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q4 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q5 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q6 : ┤ x ├┤ h ├
+     ╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 000000:1 }
+
+The oracle function is constant.
+	Command being timed: "python3 deutsch-jozsa.py 7"
+	User time (seconds): 0.87
+	System time (seconds): 0.49
+	Percent of CPU this job got: 86%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 619180
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 43541
+	Voluntary context switches: 4163
+	Involuntary context switches: 20
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Generated fx for function type = constant: [1, 1, 1, 1, 1, 1]
+oracleType =  0
+oracleValue =  1
+     ╭───╮╭───╮     
+q0 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q1 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q2 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q3 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q4 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q5 : ┤ h ├┤ h ├─────
+     ├───┤├───┤╭───╮
+q6 : ┤ x ├┤ h ├┤ x ├
+     ╰───╯╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 000000:1 }
+
+The oracle function is constant.
+	Command being timed: "python3 deutsch-jozsa.py 7"
+	User time (seconds): 0.87
+	System time (seconds): 0.43
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 623284
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43237
+	Voluntary context switches: 1544
+	Involuntary context switches: 24
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Generated fx for function type = constant: [1, 1, 1, 1, 1, 1]
+oracleType =  0
+oracleValue =  1
+     ╭───╮╭───╮     
+q0 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q1 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q2 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q3 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q4 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q5 : ┤ h ├┤ h ├─────
+     ├───┤├───┤╭───╮
+q6 : ┤ x ├┤ h ├┤ x ├
+     ╰───╯╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 000000:1 }
+
+The oracle function is constant.
+	Command being timed: "python3 deutsch-jozsa.py 7"
+	User time (seconds): 0.85
+	System time (seconds): 0.43
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 621516
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43413
+	Voluntary context switches: 1530
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Generated fx for function type = constant: [0, 0, 0, 0, 0, 0]
+oracleType =  0
+oracleValue =  0
+     ╭───╮╭───╮
+q0 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q1 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q2 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q3 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q4 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q5 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q6 : ┤ x ├┤ h ├
+     ╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 000000:1 }
+
+The oracle function is constant.
+	Command being timed: "python3 deutsch-jozsa.py 7"
+	User time (seconds): 0.85
+	System time (seconds): 0.44
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 619888
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43044
+	Voluntary context switches: 1519
+	Involuntary context switches: 28
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Generated fx for function type = constant: [1, 1, 1, 1, 1, 1]
+oracleType =  0
+oracleValue =  1
+     ╭───╮╭───╮     
+q0 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q1 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q2 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q3 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q4 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q5 : ┤ h ├┤ h ├─────
+     ├───┤├───┤╭───╮
+q6 : ┤ x ├┤ h ├┤ x ├
+     ╰───╯╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 000000:1 }
+
+The oracle function is constant.
+	Command being timed: "python3 deutsch-jozsa.py 7"
+	User time (seconds): 0.88
+	System time (seconds): 0.41
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 620436
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43331
+	Voluntary context switches: 1533
+	Involuntary context switches: 29
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Generated fx for function type = constant: [1, 1, 1, 1, 1, 1]
+oracleType =  0
+oracleValue =  1
+     ╭───╮╭───╮     
+q0 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q1 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q2 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q3 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q4 : ┤ h ├┤ h ├─────
+     ├───┤├───┤     
+q5 : ┤ h ├┤ h ├─────
+     ├───┤├───┤╭───╮
+q6 : ┤ x ├┤ h ├┤ x ├
+     ╰───╯╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 000000:1 }
+
+The oracle function is constant.
+	Command being timed: "python3 deutsch-jozsa.py 7"
+	User time (seconds): 0.85
+	System time (seconds): 0.44
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 620260
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43765
+	Voluntary context switches: 1525
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Generated fx for function type = constant: [0, 0, 0, 0, 0, 0]
+oracleType =  0
+oracleValue =  0
+     ╭───╮╭───╮
+q0 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q1 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q2 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q3 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q4 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q5 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q6 : ┤ x ├┤ h ├
+     ╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 000000:1 }
+
+The oracle function is constant.
+	Command being timed: "python3 deutsch-jozsa.py 7"
+	User time (seconds): 0.88
+	System time (seconds): 0.41
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 621460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 42767
+	Voluntary context switches: 1539
+	Involuntary context switches: 24
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Generated fx for function type = constant: [0, 0, 0, 0, 0, 0]
+oracleType =  0
+oracleValue =  0
+     ╭───╮╭───╮
+q0 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q1 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q2 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q3 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q4 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q5 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q6 : ┤ x ├┤ h ├
+     ╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 000000:1 }
+
+The oracle function is constant.
+	Command being timed: "python3 deutsch-jozsa.py 7"
+	User time (seconds): 0.86
+	System time (seconds): 0.44
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 621916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43362
+	Voluntary context switches: 1532
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Generated fx for function type = constant: [0, 0, 0, 0, 0, 0]
+oracleType =  0
+oracleValue =  0
+     ╭───╮╭───╮
+q0 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q1 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q2 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q3 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q4 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q5 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q6 : ┤ x ├┤ h ├
+     ╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 000000:1 }
+
+The oracle function is constant.
+	Command being timed: "python3 deutsch-jozsa.py 7"
+	User time (seconds): 0.88
+	System time (seconds): 0.41
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 620176
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43041
+	Voluntary context switches: 1528
+	Involuntary context switches: 25
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Generated fx for function type = constant: [0, 0, 0, 0, 0, 0]
+oracleType =  0
+oracleValue =  0
+     ╭───╮╭───╮
+q0 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q1 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q2 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q3 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q4 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q5 : ┤ h ├┤ h ├
+     ├───┤├───┤
+q6 : ┤ x ├┤ h ├
+     ╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 000000:1 }
+
+The oracle function is constant.
+	Command being timed: "python3 deutsch-jozsa.py 7"
+	User time (seconds): 0.87
+	System time (seconds): 0.43
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 621396
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 42640
+	Voluntary context switches: 1532
+	Involuntary context switches: 28
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
