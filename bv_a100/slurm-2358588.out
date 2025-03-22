@@ -1,0 +1,422 @@
+WARNING: overwriting environment variables set in the machine
+overwriting variable ['LD_LIBRARY_PATH']
+     ╭───╮          ╭───╮     
+q0 : ┤ h ├───────●──┤ h ├─────
+     ├───┤       │  ├───┤     
+q1 : ┤ h ├───────┼──┤ h ├─────
+     ├───┤       │  ├───┤     
+q2 : ┤ h ├───────┼──┤ h ├─────
+     ├───┤       │  ├───┤     
+q3 : ┤ h ├───────┼──┤ h ├─────
+     ├───┤       │  ╰───╯╭───╮
+q4 : ┤ h ├───────┼────●──┤ h ├
+     ├───┤       │    │  ├───┤
+q5 : ┤ h ├───────┼────┼──┤ h ├
+     ├───┤╭───╮╭─┴─╮╭─┴─╮╰───╯
+q6 : ┤ x ├┤ h ├┤ x ├┤ x ├─────
+     ╰───╯╰───╯╰───╯╰───╯     
+
+secret bitstring = [1, 0, 0, 0, 1, 0]
+measured state = 100010
+Were we successful? True
+	Command being timed: "python3 bernstein-vazirani.py 6"
+	User time (seconds): 0.76
+	System time (seconds): 0.74
+	Percent of CPU this job got: 67%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 587496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 65286
+	Voluntary context switches: 3671
+	Involuntary context switches: 28
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮          ╭───╮          
+q0 : ┤ h ├───────●──┤ h ├──────────
+     ├───┤       │  ├───┤          
+q1 : ┤ h ├───────┼──┤ h ├──────────
+     ├───┤       │  ╰───╯╭───╮     
+q2 : ┤ h ├───────┼────●──┤ h ├─────
+     ├───┤       │    │  ├───┤     
+q3 : ┤ h ├───────┼────┼──┤ h ├─────
+     ├───┤       │    │  ╰───╯╭───╮
+q4 : ┤ h ├───────┼────┼────●──┤ h ├
+     ├───┤       │    │    │  ├───┤
+q5 : ┤ h ├───────┼────┼────┼──┤ h ├
+     ├───┤╭───╮╭─┴─╮╭─┴─╮╭─┴─╮╰───╯
+q6 : ┤ x ├┤ h ├┤ x ├┤ x ├┤ x ├─────
+     ╰───╯╰───╯╰───╯╰───╯╰───╯     
+
+secret bitstring = [1, 0, 1, 0, 1, 0]
+measured state = 101010
+Were we successful? True
+	Command being timed: "python3 bernstein-vazirani.py 6"
+	User time (seconds): 0.78
+	System time (seconds): 0.73
+	Percent of CPU this job got: 76%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 593464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54858
+	Voluntary context switches: 2121
+	Involuntary context switches: 23
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮                         
+q0 : ┤ h ├┤ h ├─────────────────────────
+     ├───┤├───┤                         
+q1 : ┤ h ├┤ h ├─────────────────────────
+     ├───┤╰───╯     ╭───╮               
+q2 : ┤ h ├───────●──┤ h ├───────────────
+     ├───┤       │  ╰───╯╭───╮          
+q3 : ┤ h ├───────┼────●──┤ h ├──────────
+     ├───┤       │    │  ╰───╯╭───╮     
+q4 : ┤ h ├───────┼────┼────●──┤ h ├─────
+     ├───┤       │    │    │  ╰───╯╭───╮
+q5 : ┤ h ├───────┼────┼────┼────●──┤ h ├
+     ├───┤╭───╮╭─┴─╮╭─┴─╮╭─┴─╮╭─┴─╮╰───╯
+q6 : ┤ x ├┤ h ├┤ x ├┤ x ├┤ x ├┤ x ├─────
+     ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯     
+
+secret bitstring = [0, 0, 1, 1, 1, 1]
+measured state = 001111
+Were we successful? True
+	Command being timed: "python3 bernstein-vazirani.py 6"
+	User time (seconds): 0.77
+	System time (seconds): 0.73
+	Percent of CPU this job got: 79%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 587328
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 52941
+	Voluntary context switches: 2096
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮                         
+q0 : ┤ h ├┤ h ├─────────────────────────
+     ├───┤╰───╯     ╭───╮               
+q1 : ┤ h ├───────●──┤ h ├───────────────
+     ├───┤       │  ╰───╯╭───╮          
+q2 : ┤ h ├───────┼────●──┤ h ├──────────
+     ├───┤       │    │  ╰───╯╭───╮     
+q3 : ┤ h ├───────┼────┼────●──┤ h ├─────
+     ├───┤       │    │    │  ╰───╯╭───╮
+q4 : ┤ h ├───────┼────┼────┼────●──┤ h ├
+     ├───┤       │    │    │    │  ├───┤
+q5 : ┤ h ├───────┼────┼────┼────┼──┤ h ├
+     ├───┤╭───╮╭─┴─╮╭─┴─╮╭─┴─╮╭─┴─╮╰───╯
+q6 : ┤ x ├┤ h ├┤ x ├┤ x ├┤ x ├┤ x ├─────
+     ╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯     
+
+secret bitstring = [0, 1, 1, 1, 1, 0]
+measured state = 011110
+Were we successful? True
+	Command being timed: "python3 bernstein-vazirani.py 6"
+	User time (seconds): 0.76
+	System time (seconds): 0.75
+	Percent of CPU this job got: 78%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 586228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 52547
+	Voluntary context switches: 2086
+	Involuntary context switches: 20
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮          ╭───╮
+q0 : ┤ h ├───────●──┤ h ├
+     ├───┤       │  ├───┤
+q1 : ┤ h ├───────┼──┤ h ├
+     ├───┤       │  ├───┤
+q2 : ┤ h ├───────┼──┤ h ├
+     ├───┤       │  ├───┤
+q3 : ┤ h ├───────┼──┤ h ├
+     ├───┤       │  ├───┤
+q4 : ┤ h ├───────┼──┤ h ├
+     ├───┤       │  ├───┤
+q5 : ┤ h ├───────┼──┤ h ├
+     ├───┤╭───╮╭─┴─╮╰───╯
+q6 : ┤ x ├┤ h ├┤ x ├─────
+     ╰───╯╰───╯╰───╯     
+
+secret bitstring = [1, 0, 0, 0, 0, 0]
+measured state = 100000
+Were we successful? True
+	Command being timed: "python3 bernstein-vazirani.py 6"
+	User time (seconds): 0.77
+	System time (seconds): 0.71
+	Percent of CPU this job got: 80%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 587604
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 49447
+	Voluntary context switches: 2024
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮               
+q0 : ┤ h ├┤ h ├───────────────
+     ├───┤╰───╯     ╭───╮     
+q1 : ┤ h ├───────●──┤ h ├─────
+     ├───┤       │  ╰───╯╭───╮
+q2 : ┤ h ├───────┼────●──┤ h ├
+     ├───┤       │    │  ├───┤
+q3 : ┤ h ├───────┼────┼──┤ h ├
+     ├───┤       │    │  ├───┤
+q4 : ┤ h ├───────┼────┼──┤ h ├
+     ├───┤       │    │  ├───┤
+q5 : ┤ h ├───────┼────┼──┤ h ├
+     ├───┤╭───╮╭─┴─╮╭─┴─╮╰───╯
+q6 : ┤ x ├┤ h ├┤ x ├┤ x ├─────
+     ╰───╯╰───╯╰───╯╰───╯     
+
+secret bitstring = [0, 1, 1, 0, 0, 0]
+measured state = 011000
+Were we successful? True
+	Command being timed: "python3 bernstein-vazirani.py 6"
+	User time (seconds): 0.76
+	System time (seconds): 0.69
+	Percent of CPU this job got: 80%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 588928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 49252
+	Voluntary context switches: 1865
+	Involuntary context switches: 24
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮          ╭───╮          
+q0 : ┤ h ├───────●──┤ h ├──────────
+     ├───┤       │  ├───┤          
+q1 : ┤ h ├───────┼──┤ h ├──────────
+     ├───┤       │  ├───┤          
+q2 : ┤ h ├───────┼──┤ h ├──────────
+     ├───┤       │  ╰───╯╭───╮     
+q3 : ┤ h ├───────┼────●──┤ h ├─────
+     ├───┤       │    │  ├───┤     
+q4 : ┤ h ├───────┼────┼──┤ h ├─────
+     ├───┤       │    │  ╰───╯╭───╮
+q5 : ┤ h ├───────┼────┼────●──┤ h ├
+     ├───┤╭───╮╭─┴─╮╭─┴─╮╭─┴─╮╰───╯
+q6 : ┤ x ├┤ h ├┤ x ├┤ x ├┤ x ├─────
+     ╰───╯╰───╯╰───╯╰───╯╰───╯     
+
+secret bitstring = [1, 0, 0, 1, 0, 1]
+measured state = 100101
+Were we successful? True
+	Command being timed: "python3 bernstein-vazirani.py 6"
+	User time (seconds): 0.78
+	System time (seconds): 0.73
+	Percent of CPU this job got: 80%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 591204
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 66150
+	Voluntary context switches: 1922
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮          ╭───╮          
+q0 : ┤ h ├───────●──┤ h ├──────────
+     ├───┤       │  ├───┤          
+q1 : ┤ h ├───────┼──┤ h ├──────────
+     ├───┤       │  ├───┤          
+q2 : ┤ h ├───────┼──┤ h ├──────────
+     ├───┤       │  ├───┤          
+q3 : ┤ h ├───────┼──┤ h ├──────────
+     ├───┤       │  ╰───╯╭───╮     
+q4 : ┤ h ├───────┼────●──┤ h ├─────
+     ├───┤       │    │  ╰───╯╭───╮
+q5 : ┤ h ├───────┼────┼────●──┤ h ├
+     ├───┤╭───╮╭─┴─╮╭─┴─╮╭─┴─╮╰───╯
+q6 : ┤ x ├┤ h ├┤ x ├┤ x ├┤ x ├─────
+     ╰───╯╰───╯╰───╯╰───╯╰───╯     
+
+secret bitstring = [1, 0, 0, 0, 1, 1]
+measured state = 100011
+Were we successful? True
+	Command being timed: "python3 bernstein-vazirani.py 6"
+	User time (seconds): 0.76
+	System time (seconds): 0.69
+	Percent of CPU this job got: 82%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 586936
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 50271
+	Voluntary context switches: 1866
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮          
+q0 : ┤ h ├┤ h ├──────────
+     ├───┤├───┤          
+q1 : ┤ h ├┤ h ├──────────
+     ├───┤├───┤          
+q2 : ┤ h ├┤ h ├──────────
+     ├───┤╰───╯     ╭───╮
+q3 : ┤ h ├───────●──┤ h ├
+     ├───┤       │  ├───┤
+q4 : ┤ h ├───────┼──┤ h ├
+     ├───┤       │  ├───┤
+q5 : ┤ h ├───────┼──┤ h ├
+     ├───┤╭───╮╭─┴─╮╰───╯
+q6 : ┤ x ├┤ h ├┤ x ├─────
+     ╰───╯╰───╯╰───╯     
+
+secret bitstring = [0, 0, 0, 1, 0, 0]
+measured state = 000100
+Were we successful? True
+	Command being timed: "python3 bernstein-vazirani.py 6"
+	User time (seconds): 0.77
+	System time (seconds): 0.69
+	Percent of CPU this job got: 80%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 589744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53384
+	Voluntary context switches: 1864
+	Involuntary context switches: 30
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮                    
+q0 : ┤ h ├┤ h ├────────────────────
+     ├───┤╰───╯     ╭───╮          
+q1 : ┤ h ├───────●──┤ h ├──────────
+     ├───┤       │  ╰───╯╭───╮     
+q2 : ┤ h ├───────┼────●──┤ h ├─────
+     ├───┤       │    │  ├───┤     
+q3 : ┤ h ├───────┼────┼──┤ h ├─────
+     ├───┤       │    │  ╰───╯╭───╮
+q4 : ┤ h ├───────┼────┼────●──┤ h ├
+     ├───┤       │    │    │  ├───┤
+q5 : ┤ h ├───────┼────┼────┼──┤ h ├
+     ├───┤╭───╮╭─┴─╮╭─┴─╮╭─┴─╮╰───╯
+q6 : ┤ x ├┤ h ├┤ x ├┤ x ├┤ x ├─────
+     ╰───╯╰───╯╰───╯╰───╯╰───╯     
+
+secret bitstring = [0, 1, 1, 0, 1, 0]
+measured state = 011010
+Were we successful? True
+	Command being timed: "python3 bernstein-vazirani.py 6"
+	User time (seconds): 0.76
+	System time (seconds): 0.69
+	Percent of CPU this job got: 80%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 585212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 49721
+	Voluntary context switches: 1864
+	Involuntary context switches: 25
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
