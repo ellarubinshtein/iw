@@ -20,13 +20,13 @@ module load openmpi/nvhpc-24.5/4.1.6
 conda activate /scratch/network/er4138/cudaq-env
 export OMPI_MCA_opal_cuda_support=true OMPI_MCA_btl='^openib'
 
-/usr/bin/time -v python3 bernstein-vazirani.py 3
-/usr/bin/time -v python3 bernstein-vazirani.py 3
-/usr/bin/time -v python3 bernstein-vazirani.py 3
-/usr/bin/time -v python3 bernstein-vazirani.py 3
-/usr/bin/time -v python3 bernstein-vazirani.py 3
-/usr/bin/time -v python3 bernstein-vazirani.py 3
-/usr/bin/time -v python3 bernstein-vazirani.py 3
-/usr/bin/time -v python3 bernstein-vazirani.py 3
-/usr/bin/time -v python3 bernstein-vazirani.py 3
-/usr/bin/time -v python3 bernstein-vazirani.py 3
+/usr/bin/time -v python3 bernstein-vazirani.py 4
+/usr/bin/time -v python3 bernstein-vazirani.py 4
+/usr/bin/time -v python3 bernstein-vazirani.py 4
+/usr/bin/time -v python3 bernstein-vazirani.py 4
+/usr/bin/time -v python3 bernstein-vazirani.py 4
+/usr/bin/time -v python3 bernstein-vazirani.py 4
+/usr/bin/time -v python3 bernstein-vazirani.py 4
+/usr/bin/time -v python3 bernstein-vazirani.py 4
+/usr/bin/time -v python3 bernstein-vazirani.py 4
+/usr/bin/time -v python3 bernstein-vazirani.py 4
