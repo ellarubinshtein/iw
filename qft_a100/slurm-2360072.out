@@ -1,0 +1,302 @@
+WARNING: overwriting environment variables set in the machine
+overwriting variable ['LD_LIBRARY_PATH']
+     ╭───╮╭───╮╭───────────╮     
+q0 : ┤ x ├┤ h ├┤ r1(1.571) ├─────
+     ╰───╯╰───╯╰─────┬─────╯╭───╮
+q1 : ────────────────●──────┤ h ├
+                            ╰───╯
+
+[ 0.5+0.j -0.5+0.j  0.5+0.j -0.5+0.j]
+	Command being timed: "python3 qft.py 2"
+	User time (seconds): 0.79
+	System time (seconds): 0.80
+	Percent of CPU this job got: 72%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 572132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 59879
+	Voluntary context switches: 3628
+	Involuntary context switches: 43
+	Swaps: 0
+	File system inputs: 176
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮╭───────────╮     
+q0 : ┤ x ├┤ h ├┤ r1(1.571) ├─────
+     ╰───╯╰───╯╰─────┬─────╯╭───╮
+q1 : ────────────────●──────┤ h ├
+                            ╰───╯
+
+[ 0.5+0.j -0.5+0.j  0.5+0.j -0.5+0.j]
+	Command being timed: "python3 qft.py 2"
+	User time (seconds): 0.81
+	System time (seconds): 0.68
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 573400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 51685
+	Voluntary context switches: 1855
+	Involuntary context switches: 38
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮╭───────────╮     
+q0 : ┤ x ├┤ h ├┤ r1(1.571) ├─────
+     ├───┤╰───╯╰─────┬─────╯╭───╮
+q1 : ┤ x ├───────────●──────┤ h ├
+     ╰───╯                  ╰───╯
+
+[ 0.5+0.j   0. -0.5j -0.5+0.j  -0. +0.5j]
+	Command being timed: "python3 qft.py 2"
+	User time (seconds): 0.79
+	System time (seconds): 0.68
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 573220
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 50824
+	Voluntary context switches: 1855
+	Involuntary context switches: 40
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───────────╮     
+q0 : ┤ h ├┤ r1(1.571) ├─────
+     ├───┤╰─────┬─────╯╭───╮
+q1 : ┤ x ├──────●──────┤ h ├
+     ╰───╯             ╰───╯
+
+[ 0.5+0.j  -0. +0.5j -0.5+0.j   0. -0.5j]
+	Command being timed: "python3 qft.py 2"
+	User time (seconds): 0.79
+	System time (seconds): 0.68
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 572608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 50673
+	Voluntary context switches: 1862
+	Involuntary context switches: 43
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───────────╮     
+q0 : ┤ h ├┤ r1(1.571) ├─────
+     ╰───╯╰─────┬─────╯╭───╮
+q1 : ───────────●──────┤ h ├
+                       ╰───╯
+
+[0.5+0.j 0.5+0.j 0.5+0.j 0.5+0.j]
+	Command being timed: "python3 qft.py 2"
+	User time (seconds): 0.82
+	System time (seconds): 0.65
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 571404
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 50877
+	Voluntary context switches: 1856
+	Involuntary context switches: 40
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮╭───────────╮     
+q0 : ┤ x ├┤ h ├┤ r1(1.571) ├─────
+     ╰───╯╰───╯╰─────┬─────╯╭───╮
+q1 : ────────────────●──────┤ h ├
+                            ╰───╯
+
+[ 0.5+0.j -0.5+0.j  0.5+0.j -0.5+0.j]
+	Command being timed: "python3 qft.py 2"
+	User time (seconds): 0.79
+	System time (seconds): 0.68
+	Percent of CPU this job got: 82%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 571976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 50448
+	Voluntary context switches: 1858
+	Involuntary context switches: 38
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮╭───────────╮     
+q0 : ┤ x ├┤ h ├┤ r1(1.571) ├─────
+     ├───┤╰───╯╰─────┬─────╯╭───╮
+q1 : ┤ x ├───────────●──────┤ h ├
+     ╰───╯                  ╰───╯
+
+[ 0.5+0.j   0. -0.5j -0.5+0.j  -0. +0.5j]
+	Command being timed: "python3 qft.py 2"
+	User time (seconds): 0.80
+	System time (seconds): 0.67
+	Percent of CPU this job got: 82%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 572084
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 50392
+	Voluntary context switches: 1921
+	Involuntary context switches: 42
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───────────╮     
+q0 : ┤ h ├┤ r1(1.571) ├─────
+     ├───┤╰─────┬─────╯╭───╮
+q1 : ┤ x ├──────●──────┤ h ├
+     ╰───╯             ╰───╯
+
+[ 0.5+0.j  -0. +0.5j -0.5+0.j   0. -0.5j]
+	Command being timed: "python3 qft.py 2"
+	User time (seconds): 0.79
+	System time (seconds): 0.70
+	Percent of CPU this job got: 76%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 573452
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56951
+	Voluntary context switches: 2726
+	Involuntary context switches: 40
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮╭───────────╮     
+q0 : ┤ x ├┤ h ├┤ r1(1.571) ├─────
+     ╰───╯╰───╯╰─────┬─────╯╭───╮
+q1 : ────────────────●──────┤ h ├
+                            ╰───╯
+
+[ 0.5+0.j -0.5+0.j  0.5+0.j -0.5+0.j]
+	Command being timed: "python3 qft.py 2"
+	User time (seconds): 0.80
+	System time (seconds): 0.69
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 571808
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 57604
+	Voluntary context switches: 1856
+	Involuntary context switches: 43
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+     ╭───╮╭───╮╭───────────╮     
+q0 : ┤ x ├┤ h ├┤ r1(1.571) ├─────
+     ╰───╯╰───╯╰─────┬─────╯╭───╮
+q1 : ────────────────●──────┤ h ├
+                            ╰───╯
+
+[ 0.5+0.j -0.5+0.j  0.5+0.j -0.5+0.j]
+	Command being timed: "python3 qft.py 2"
+	User time (seconds): 0.79
+	System time (seconds): 0.68
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 574224
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 50651
+	Voluntary context switches: 1855
+	Involuntary context switches: 39
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
