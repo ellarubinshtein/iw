@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #SBATCH --job-name=shor_a100       # create a short name for your job
 #SBATCH --nodes=1                # node count
@@ -14,12 +13,11 @@
 
 module purge
 module load anaconda3/2024.10
-module load nvhpc/24.5 
 module load cudatoolkit/12.6
+module load nvhpc/24.5 
 module load openmpi/nvhpc-24.5/4.1.6
 
 conda activate /scratch/network/er4138/cudaq-env
 export OMPI_MCA_opal_cuda_support=true OMPI_MCA_btl='^openib'
 
-
-/usr/bin/time -v srun python3 bernstein-vazirani.py --target-option mgpu
+/usr/bin/time -v srun python3 bernstein-vazirani.py 2 

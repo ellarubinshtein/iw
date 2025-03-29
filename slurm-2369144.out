@@ -1,0 +1,243 @@
+WARNING: overwriting environment variables set in the machine
+overwriting variable ['LD_LIBRARY_PATH']
+Command terminated by signal 9
+	Command being timed: "python3 shor.py 26"
+	User time (seconds): 258.96
+	System time (seconds): 47.67
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:12.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134281008
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 593
+	Minor (reclaiming a frame) page faults: 37463771
+	Voluntary context switches: 17082
+	Involuntary context switches: 5742
+	Swaps: 0
+	File system inputs: 12264
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 9
+	Command being timed: "python3 shor.py 26"
+	User time (seconds): 256.70
+	System time (seconds): 47.30
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:09.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134303492
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 549
+	Minor (reclaiming a frame) page faults: 37474122
+	Voluntary context switches: 13482
+	Involuntary context switches: 5746
+	Swaps: 0
+	File system inputs: 12320
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 9
+	Command being timed: "python3 shor.py 26"
+	User time (seconds): 257.60
+	System time (seconds): 46.67
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:11.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134302412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 656
+	Minor (reclaiming a frame) page faults: 37483547
+	Voluntary context switches: 13760
+	Involuntary context switches: 5712
+	Swaps: 0
+	File system inputs: 12488
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 9
+	Command being timed: "python3 shor.py 26"
+	User time (seconds): 256.88
+	System time (seconds): 47.80
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:09.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134302644
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 595
+	Minor (reclaiming a frame) page faults: 37482590
+	Voluntary context switches: 13582
+	Involuntary context switches: 5702
+	Swaps: 0
+	File system inputs: 12056
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 9
+	Command being timed: "python3 shor.py 26"
+	User time (seconds): 256.74
+	System time (seconds): 48.24
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:10.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134303944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 571
+	Minor (reclaiming a frame) page faults: 37480059
+	Voluntary context switches: 14131
+	Involuntary context switches: 5715
+	Swaps: 0
+	File system inputs: 11992
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 9
+	Command being timed: "python3 shor.py 26"
+	User time (seconds): 256.75
+	System time (seconds): 47.79
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:11.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134303268
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 579
+	Minor (reclaiming a frame) page faults: 37477318
+	Voluntary context switches: 14179
+	Involuntary context switches: 5715
+	Swaps: 0
+	File system inputs: 12248
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 9
+	Command being timed: "python3 shor.py 26"
+	User time (seconds): 256.89
+	System time (seconds): 47.76
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:09.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134304088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 599
+	Minor (reclaiming a frame) page faults: 37481182
+	Voluntary context switches: 13736
+	Involuntary context switches: 5704
+	Swaps: 0
+	File system inputs: 11992
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 9
+	Command being timed: "python3 shor.py 26"
+	User time (seconds): 258.22
+	System time (seconds): 48.00
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:10.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134305120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 597
+	Minor (reclaiming a frame) page faults: 37468832
+	Voluntary context switches: 14254
+	Involuntary context switches: 5733
+	Swaps: 0
+	File system inputs: 12456
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 9
+	Command being timed: "python3 shor.py 26"
+	User time (seconds): 258.15
+	System time (seconds): 47.23
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:10.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134304356
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 588
+	Minor (reclaiming a frame) page faults: 37491498
+	Voluntary context switches: 14148
+	Involuntary context switches: 5709
+	Swaps: 0
+	File system inputs: 12120
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 9
+	Command being timed: "python3 shor.py 26"
+	User time (seconds): 257.83
+	System time (seconds): 47.76
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:10.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134304736
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 563
+	Minor (reclaiming a frame) page faults: 37490246
+	Voluntary context switches: 13711
+	Involuntary context switches: 5736
+	Swaps: 0
+	File system inputs: 12312
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+slurmstepd: error: Detected 10 oom_kill events in StepId=2369144.batch. Some of the step tasks have been OOM Killed.
