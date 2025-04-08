@@ -5,7 +5,8 @@ import argparse
 import random
 
 # cudaq.set_target('qpp-cpu')
-cudaq.set_target('nvidia', option='mgpu') # GPU backend which enables scaling to large problem sizes
+# cudaq.set_target('nvidia', option='mgpu') # GPU backend which enables scaling to large problem sizes
+cudaq.set_target('nvidia')
 
 # Record the start time
 #start_time = time.time()

@@ -1,0 +1,47 @@
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 949481 (/usr/bin/nvidia-smi)
+==PROF== Disconnected from process 949481
+==PROF== Connected to process 949419 (/scratch/network/er4138/cudaq-env/bin/python3.11)
+==PROF== Profiling "setZeroStateKernel" - 0: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70_Reloc..." - 1: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70_Reloc..." - 2: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 3: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70_Reloc..." - 4: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 5: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 6: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 7: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 8: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 9: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 10: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 11: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 12: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 13: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70" - 14: 0%....50%....100% - 19 passes
+==PROF== Profiling "naivePermutingSetKernel" - 15: 0%....50%....100% - 19 passes
+==PROF== Profiling "matmulKernel_diagonal" - 16: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_cc70_Reloc..." - 17: 0%....50%....100% - 19 passes
+==PROF== Profiling "naivePermutingSetKernel" - 18: 0%....50%....100% - 19 passes
+==PROF== Profiling "matmulKernel_diagonal" - 19: 0%....50%....100% - 19 passes
+==PROF== Profiling "constMatApplKernel_Relocate" - 20: 0%....50%....100% - 19 passes
+==PROF== Profiling "blockwiseCumulativeSumKernel" - 21: 0%....50%....100% - 19 passes
+==PROF== Profiling "intervalCumulativeSumKernel" - 22: 0%....50%....100% - 19 passes
+==PROF== Profiling "applyPrevCumsumKernel" - 23: 0%....50%....100% - 19 passes
+==PROF== Profiling "transformKernel" - 24: 0%....50%....100% - 19 passes
+==PROF== Profiling "DeviceRadixSortHistogramKernel" - 25: 0%....50%....100% - 19 passes
+==PROF== Profiling "DeviceRadixSortExclusiveSumKe..." - 26: 0%....50%....100% - 19 passes
+==PROF== Profiling "DeviceRadixSortOnesweepKernel" - 27: 0%....50%....100% - 19 passes
+==PROF== Profiling "DeviceRadixSortOnesweepKernel" - 28: 0%....50%....100% - 19 passes
+==PROF== Profiling "DeviceRadixSortOnesweepKernel" - 29: 0%....50%....100% - 19 passes
+==PROF== Profiling "DeviceRadixSortOnesweepKernel" - 30: 0%....50%....100% - 19 passes
+==PROF== Profiling "DeviceRadixSortOnesweepKernel" - 31: 0%....50%....100% - 19 passes
+==PROF== Profiling "DeviceRadixSortOnesweepKernel" - 32: 0%....50%....100% - 19 passes
+==PROF== Profiling "DeviceRadixSortOnesweepKernel" - 33: 0%....50%....100% - 19 passes
+==PROF== Profiling "DeviceRadixSortOnesweepKernel" - 34: 0%....50%....100% - 19 passes
+==PROF== Profiling "sampleKernel" - 35: 0%....50%....100% - 19 passes
+==PROF== Profiling "transformKernel" - 36: 0%....50%....100% - 19 passes
+Measurement results for a=5 and N=21 with 10 qubits in the control register 
+{ 0000000000:2480 0000010000:1 0001010010:1 0001011101:1 0001110101:1 0001111011:1 0010000000:1 0010000100:1 0010000101:1 0010000110:1 0010010111:1 0010011000:1 0010011001:2 0010011010:1 0010011110:1 0010011111:1 0010100000:2 0010100001:2 0010100010:1 0010100011:2 0010100100:4 0010100101:8 0010100110:13 0010100111:11 0010101000:31 0010101001:62 0010101010:404 0010101011:1710 0010101100:90 0010101101:41 0010101110:15 0010101111:17 0010110000:6 0010110001:2 0010110010:6 0010110011:3 0010110100:4 0010110110:1 0010110111:1 0010111000:2 0010111001:1 0010111110:2 0010111111:1 0011000010:1 0011001001:1 0011001110:1 0011011010:2 0011011100:1 0011101001:1 0011110000:1 0011111011:1 0100000111:1 0100010100:1 0100110001:1 0100110011:1 0100110101:1 0100111000:1 0101000011:2 0101001001:1 0101001010:3 0101001011:2 0101001100:2 0101001101:3 0101001110:8 0101001111:5 0101010000:5 0101010001:10 0101010010:16 0101010011:36 0101010100:96 0101010101:1735 0101010110:440 0101010111:74 0101011000:27 0101011001:14 0101011010:10 0101011011:3 0101011100:9 0101011101:4 0101011110:4 0101011111:2 0101100000:1 0101100101:1 0101100111:1 0101101010:1 0101101011:2 0101101101:1 0101101110:1 0101110001:1 0101110100:1 0110000111:1 0110001100:1 0110001111:1 0110100010:1 0110100101:1 0111110000:1 0111110001:1 1000000000:2512 1001100100:1 1001110000:1 1001110010:1 1001111011:1 1010000110:1 1010001010:1 1010001100:1 1010001110:1 1010010110:2 1010011000:2 1010011011:1 1010011100:1 1010011110:1 1010011111:2 1010100000:2 1010100001:2 1010100010:2 1010100011:5 1010100100:5 1010100101:4 1010100110:10 1010100111:9 1010101000:35 1010101001:69 1010101010:444 1010101011:1722 1010101100:101 1010101101:40 1010101110:12 1010101111:7 1010110000:8 1010110001:3 1010110010:4 1010110011:1 1010110100:3 1010110101:2 1010110110:3 1010110111:2 1010111000:2 1010111001:1 1010111010:1 1010111011:1 1011000000:1 1011000100:1 1011001101:1 1011010110:1 1011110011:1 1100000010:1 1100111000:1 1100111001:1 1100111100:1 1100111101:2 1101000010:1 1101000011:1 1101000100:2 1101000101:1 1101000111:2 1101001001:2 1101001100:1 1101001101:4 1101001110:2 1101001111:5 1101010000:8 1101010001:9 1101010010:10 1101010011:39 1101010100:103 1101010101:1721 1101010110:405 1101010111:79 1101011000:21 1101011001:22 1101011010:7 1101011011:6 1101011100:2 1101011101:3 1101011110:4 1101011111:1 1101100000:1 1101100001:2 1101100101:1 1101100111:1 1101101001:1 1101101011:1 1101101110:1 1101110001:1 1101110010:1 1101110011:1 1101110100:1 1101111001:1 1110001001:1 1110011111:1 1110110011:1 1111010110:1 1111101010:1 }
+
+A100
+==PROF== Disconnected from process 949419
+==PROF== Report: /home/er4138/iw/my_report_2391842.ncu-rep

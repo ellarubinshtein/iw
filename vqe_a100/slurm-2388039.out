@@ -1,0 +1,26 @@
+-4.4545289784380255
+A100
+	Command being timed: "python3 vqe.py 9"
+	User time (seconds): 50320.58
+	System time (seconds): 230.78
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:06:40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134299740
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 8713
+	Minor (reclaiming a frame) page faults: 224002998
+	Voluntary context switches: 522534
+	Involuntary context switches: 870464
+	Swaps: 0
+	File system inputs: 168664
+	File system outputs: 624
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+slurmstepd: error: *** JOB 2388039 ON adroit-h11g2 CANCELLED AT 2025-04-04T15:37:27 ***

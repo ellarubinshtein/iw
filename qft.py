@@ -43,7 +43,7 @@ input_state = [random.choice([0, 1]) for _ in range(qubit_count)]
 precision = 2
 
 # Draw the quantum circuit.
-# print(cudaq.draw(quantum_fourier_transform, input_state))
+print(cudaq.draw(quantum_fourier_transform, input_state))
 
 # Print the statevector to the specified precision
 statevector = np.array(cudaq.get_state(quantum_fourier_transform, input_state))

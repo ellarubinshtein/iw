@@ -12,7 +12,7 @@ def quantum_fourier_transform(qubits: cudaq.qview):
             angle = (2 * np.pi) / (2**(j - i + 1))
             cr1(angle, [qubits[j]], qubits[i])
 
-
+# 
 @cudaq.kernel
 def inverse_qft(qubits: cudaq.qview):
     cudaq.adjoint(quantum_fourier_transform, qubits)
@@ -132,3 +132,5 @@ print(
     "Measurement results for a={} and N={} with {} qubits in the control register "
     .format(values_for_a[idx], N, control_register_size))
 print(results)
+
+print("V100")

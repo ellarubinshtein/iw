@@ -1,0 +1,96 @@
+WARNING: overwriting environment variables set in the machine
+overwriting variable ['LD_LIBRARY_PATH']
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 2475113 (/usr/bin/nvidia-smi)
+==PROF== Disconnected from process 2475113
+==PROF== Connected to process 2475105 (/scratch/network/er4138/cudaq-env/bin/python3.11)
+==PROF== Profiling "setZeroStateKernel" - 0: 0%
+==WARNING== Backing up device memory in system memory. Kernel replay might be slow. Consider using "--replay-mode application" to avoid memory save-and-restore.
+....50%....100% - 11 passes
+==PROF== Profiling "constMatApplKernel_Relocate" - 1: 0%....50%....100% - 11 passes
+==PROF== Profiling "constMatApplKernel_Relocate" - 2: 0%....50%....100% - 11 passes
+==PROF== Profiling "constMatApplShTargetsKernel" - 3: 0%....50%....100% - 11 passes
+==PROF== Profiling "constMatApplShTargetsKernel" - 4: 0%....50%....100% - 11 passes
+==PROF== Profiling "constMatApplShTargetsKernel" - 5: 0%....50%....100% - 11 passes
+==PROF== Profiling "constMatApplShTargetsKernel" - 6: 0%....50%....100% - 11 passes
+==PROF== Profiling "constMatApplShTargetsKernel" - 7: 0%....50%....100% - 11 passes
+==PROF== Profiling "constMatApplLoopKernel" - 8: 0%....50%....100% - 11 passes
+==PROF== Profiling "calculateAbs2SumIn10BitSegmen..." - 9: 0%....50%....100% - 11 passes
+==PROF== Profiling "blockwiseCumulativeSumKernel" - 10: 0%....50%....100% - 11 passes
+==PROF== Profiling "intervalCumulativeSumKernel" - 11: 0%....50%....100% - 11 passes
+==PROF== Profiling "applyPrevCumsumKernel" - 12: 0%....50%....100% - 11 passes
+==PROF== Profiling "transformKernel" - 13: 0%....50%....100% - 11 passes
+==PROF== Profiling "DeviceRadixSortSingleTileKernel" - 14: 0%....50%....100% - 11 passes
+==PROF== Profiling "samplingKernel" - 15: 0%....50%....100% - 11 passes
+==PROF== Profiling "transformKernel" - 16: 0%....50%....100% - 11 passes
+Generated fx for function type = constant: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+oracleType =  0
+oracleValue =  0
+      ╭───╮╭───╮
+ q0 : ┤ h ├┤ h ├
+      ├───┤├───┤
+ q1 : ┤ h ├┤ h ├
+      ├───┤├───┤
+ q2 : ┤ h ├┤ h ├
+      ├───┤├───┤
+ q3 : ┤ h ├┤ h ├
+      ├───┤├───┤
+ q4 : ┤ h ├┤ h ├
+      ├───┤├───┤
+ q5 : ┤ h ├┤ h ├
+      ├───┤├───┤
+ q6 : ┤ h ├┤ h ├
+      ├───┤├───┤
+ q7 : ┤ h ├┤ h ├
+      ├───┤├───┤
+ q8 : ┤ h ├┤ h ├
+      ├───┤├───┤
+ q9 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q10 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q11 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q12 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q13 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q14 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q15 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q16 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q17 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q18 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q19 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q20 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q21 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q22 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q23 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q24 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q25 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q26 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q27 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q28 : ┤ h ├┤ h ├
+      ├───┤├───┤
+q29 : ┤ x ├┤ h ├
+      ╰───╯╰───╯
+
+Input qubits measurement outcome and frequency = { 00000000000000000000000000000:1 }
+
+The oracle function is constant.
+GPU: V100
+==PROF== Disconnected from process 2475105
+==PROF== Report: /home/er4138/iw/my_report_2391810.ncu-rep

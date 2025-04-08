@@ -1,0 +1,272 @@
+WARNING: overwriting environment variables set in the machine
+overwriting variable ['LD_LIBRARY_PATH']
+Measurement results for a=5 and N=21 with 5 qubits in the control register 
+{ 00000:2535 00001:22 00010:23 00011:43 00100:114 00101:1621 00110:499 00111:76 01000:53 01001:98 01010:461 01011:1689 01100:120 01101:42 01110:30 01111:20 10000:2547 10001:21 10010:16 10011:39 10100:126 10101:1785 10110:414 10111:72 11000:51 11001:89 11010:423 11011:1778 11100:115 11101:39 11110:20 11111:19 }
+
+V100
+	Command being timed: "python3 shor.py 5"
+	User time (seconds): 2.21
+	System time (seconds): 0.80
+	Percent of CPU this job got: 87%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 745128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 5
+	Minor (reclaiming a frame) page faults: 111107
+	Voluntary context switches: 9505
+	Involuntary context switches: 50
+	Swaps: 0
+	File system inputs: 952
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement results for a=5 and N=21 with 5 qubits in the control register 
+{ 00000:2454 00001:22 00010:20 00011:42 00100:104 00101:1704 00110:430 00111:92 01000:40 01001:77 01010:429 01011:1785 01100:124 01101:47 01110:31 01111:26 10000:2531 10001:26 10010:23 10011:44 10100:122 10101:1815 10110:433 10111:86 11000:57 11001:82 11010:441 11011:1716 11100:111 11101:44 11110:18 11111:24 }
+
+V100
+	Command being timed: "python3 shor.py 5"
+	User time (seconds): 2.21
+	System time (seconds): 0.70
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 746460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 112477
+	Voluntary context switches: 3859
+	Involuntary context switches: 49
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement results for a=5 and N=21 with 5 qubits in the control register 
+{ 00000:2442 00001:17 00010:32 00011:41 00100:115 00101:1813 00110:411 00111:96 01000:56 01001:96 01010:459 01011:1763 01100:121 01101:50 01110:23 01111:20 10000:2515 10001:21 10010:30 10011:46 10100:131 10101:1676 10110:424 10111:97 11000:59 11001:93 11010:425 11011:1721 11100:110 11101:52 11110:22 11111:23 }
+
+V100
+	Command being timed: "python3 shor.py 5"
+	User time (seconds): 2.26
+	System time (seconds): 0.64
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 747116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 111485
+	Voluntary context switches: 3888
+	Involuntary context switches: 53
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement results for a=5 and N=21 with 5 qubits in the control register 
+{ 00000:2451 00001:16 00010:29 00011:49 00100:116 00101:1715 00110:473 00111:94 01000:68 01001:79 01010:448 01011:1746 01100:104 01101:42 01110:25 01111:26 10000:2531 10001:22 10010:19 10011:31 10100:147 10101:1719 10110:443 10111:93 11000:51 11001:87 11010:388 11011:1782 11100:123 11101:37 11110:27 11111:19 }
+
+V100
+	Command being timed: "python3 shor.py 5"
+	User time (seconds): 2.22
+	System time (seconds): 0.67
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 744432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 111450
+	Voluntary context switches: 3608
+	Involuntary context switches: 48
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement results for a=5 and N=21 with 5 qubits in the control register 
+{ 00000:2516 00001:21 00010:19 00011:53 00100:101 00101:1720 00110:425 00111:81 01000:57 01001:74 01010:444 01011:1766 01100:118 01101:41 01110:24 01111:23 10000:2553 10001:22 10010:39 10011:48 10100:123 10101:1665 10110:478 10111:91 11000:50 11001:77 11010:429 11011:1723 11100:121 11101:45 11110:34 11111:19 }
+
+V100
+	Command being timed: "python3 shor.py 5"
+	User time (seconds): 2.23
+	System time (seconds): 0.67
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 744720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 112001
+	Voluntary context switches: 3611
+	Involuntary context switches: 55
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement results for a=5 and N=21 with 5 qubits in the control register 
+{ 00000:2468 00001:15 00010:31 00011:43 00100:103 00101:1706 00110:453 00111:81 01000:60 01001:81 01010:454 01011:1699 01100:118 01101:64 01110:26 01111:18 10000:2532 10001:24 10010:21 10011:40 10100:126 10101:1795 10110:447 10111:80 11000:58 11001:77 11010:482 11011:1695 11100:100 11101:44 11110:27 11111:32 }
+
+V100
+	Command being timed: "python3 shor.py 5"
+	User time (seconds): 2.20
+	System time (seconds): 0.69
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 744808
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 112114
+	Voluntary context switches: 3606
+	Involuntary context switches: 56
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement results for a=5 and N=21 with 5 qubits in the control register 
+{ 00000:2539 00001:25 00010:27 00011:58 00100:113 00101:1651 00110:438 00111:76 01000:61 01001:83 01010:431 01011:1795 01100:113 01101:50 01110:22 01111:10 10000:2465 10001:22 10010:25 10011:46 10100:113 10101:1715 10110:465 10111:89 11000:46 11001:80 11010:429 11011:1783 11100:131 11101:46 11110:24 11111:29 }
+
+V100
+	Command being timed: "python3 shor.py 5"
+	User time (seconds): 2.21
+	System time (seconds): 0.68
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 745288
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 112267
+	Voluntary context switches: 3610
+	Involuntary context switches: 54
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement results for a=5 and N=21 with 5 qubits in the control register 
+{ 00000:2521 00001:18 00010:28 00011:52 00100:130 00101:1752 00110:416 00111:91 01000:60 01001:105 01010:429 01011:1757 01100:119 01101:54 01110:25 01111:12 10000:2443 10001:29 10010:26 10011:46 10100:101 10101:1748 10110:436 10111:74 11000:69 11001:92 11010:448 11011:1708 11100:117 11101:41 11110:26 11111:27 }
+
+V100
+	Command being timed: "python3 shor.py 5"
+	User time (seconds): 2.22
+	System time (seconds): 0.68
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 742432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 112596
+	Voluntary context switches: 3607
+	Involuntary context switches: 52
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement results for a=5 and N=21 with 5 qubits in the control register 
+{ 00000:2525 00001:24 00010:21 00011:49 00100:112 00101:1769 00110:432 00111:81 01000:62 01001:90 01010:449 01011:1693 01100:102 01101:52 01110:29 01111:18 10000:2548 10001:25 10010:28 10011:49 10100:127 10101:1676 10110:431 10111:78 11000:57 11001:84 11010:468 11011:1687 11100:130 11101:55 11110:25 11111:24 }
+
+V100
+	Command being timed: "python3 shor.py 5"
+	User time (seconds): 2.22
+	System time (seconds): 0.68
+	Percent of CPU this job got: 94%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 742772
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 112073
+	Voluntary context switches: 3607
+	Involuntary context switches: 55
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Measurement results for a=5 and N=21 with 5 qubits in the control register 
+{ 00000:2448 00001:16 00010:29 00011:37 00100:120 00101:1730 00110:434 00111:84 01000:57 01001:90 01010:455 01011:1728 01100:125 01101:50 01110:30 01111:26 10000:2587 10001:18 10010:38 10011:40 10100:106 10101:1681 10110:430 10111:101 11000:69 11001:90 11010:458 11011:1738 11100:102 11101:42 11110:22 11111:19 }
+
+V100
+	Command being timed: "python3 shor.py 5"
+	User time (seconds): 2.20
+	System time (seconds): 0.68
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 743548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 112956
+	Voluntary context switches: 3603
+	Involuntary context switches: 51
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

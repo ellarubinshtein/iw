@@ -52,3 +52,4 @@ energy, parameters = cudaq.vqe(kernel,
                                parameter_count=parameter_count)
 
 print(energy)
+print("A100")

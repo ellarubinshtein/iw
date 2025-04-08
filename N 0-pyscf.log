@@ -1,0 +1,275 @@
+#INFO: **** input file is /scratch/network/er4138/cudaq-env/lib/python3.11/site-packages/cudaq_solvers/bin/cudaq-pyscf ****
+#!/usr/bin/env python3
+
+import argparse
+import importlib, pkgutil
+import cudaq_solvers.tools.molecule.pyscf.generators
+
+from fastapi import FastAPI, Response
+from pydantic import BaseModel, PlainValidator, PlainSerializer
+import uvicorn, os, signal, importlib, pkgutil
+from typing import List, Annotated
+import numpy as np
+
+
+def iter_namespace(ns_pkg):
+    return pkgutil.iter_modules(ns_pkg.__path__, ns_pkg.__name__ + ".")
+
+
+discovered_plugins = {}
+for finder, name, ispkg in iter_namespace(
+        cudaq_solvers.tools.molecule.pyscf.generators):
+    try:
+        discovered_plugins[name] = importlib.import_module(name)
+    except ModuleNotFoundError:
+        pass
+
+hamiltonianGenerators = {
+    plugin.get_hamiltonian_generator().name(): plugin
+    for _, plugin in discovered_plugins.items()
+}
+
+#############################
+# Argument Parser
+#############################
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument('--server-mode', action='store_true', default=False)
+
+# Add arguments
+parser.add_argument(
+    '--type',
+    type=str,
+    help='type of simulation (hamiltonian generator) - options include {}'.
+    format([k for k, v in hamiltonianGenerators.items()]),
+    default='gas_phase')
+parser.add_argument('--xyz', help="xyz file", type=str)
+parser.add_argument('--basis', help='', type=str)
+parser.add_argument('--charge', help="charge of the system", type=int)
+parser.add_argument('--out-file-name',
+                    help='base file name for output data.',
+                    type=str)
+parser.add_argument('--spin', help="no. of unpaired electrons (2 *s)", type=int)
+parser.add_argument('--symmetry', help="", action='store_true', default=False)
+parser.add_argument('--memory', help="", type=float, default=4000)
+parser.add_argument('--cycles', help="", type=int, default=100)
+parser.add_argument('--initguess', help="", type=str, default='minao')
+parser.add_argument('--UR', help="", action='store_true', default=False)
+parser.add_argument('--MP2', help="", action='store_true', default=False)
+parser.add_argument('--nele_cas', help="", type=int, default=None)
+parser.add_argument('--norb_cas', help="", type=int, default=None)
+parser.add_argument('--natorb', help="", action='store_true', default=False)
+parser.add_argument('--casci', help="", action='store_true', default=False)
+parser.add_argument('--ccsd', help="", action='store_true', default=False)
+parser.add_argument('--casscf', help="", action='store_true', default=False)
+parser.add_argument('--integrals_natorb',
+                    help="",
+                    action='store_true',
+                    default=False)
+parser.add_argument('--integrals_casscf',
+                    help="",
+                    action='store_true',
+                    default=False)
+parser.add_argument('--potfile', help="", type=str, default=None)
+parser.add_argument('--verbose',
+                    help="Verbose printout",
+                    action='store_true',
+                    default=False)
+
+# Parse the arguments
+args = parser.parse_args()
+
+if not args.server_mode:
+
+    if args.type not in hamiltonianGenerators:
+        raise RuntimeError(f'invalid hamiltonian generator type - {args.type}')
+    hamiltonianGenerator = hamiltonianGenerators[
+        args.type].get_hamiltonian_generator()
+
+    filterArgs = ['xyz', 'basis']
+    filteredArgs = {
+        k: v for (k, v) in vars(args).items() if k not in filterArgs
+    }
+    res = hamiltonianGenerator.generate(args.xyz, args.basis, **filteredArgs)
+    print(res)
+
+    exit(0)
+
+app = FastAPI()
+
+
+@app.get("/shutdown")
+async def shutdown():
+    os.kill(os.getpid(), signal.SIGTERM)
+    return Response(status_code=200, content='Server shutting down...')
+
+
+class IntegralsData(BaseModel):
+    data: List[List]
+
+
+class MoleculeInput(BaseModel):
+    basis: str
+    xyz: str
+    spin: int
+    charge: int
+    type: str = 'gas_phase'
+    symmetry: bool = False
+    cycles: int = 100
+    memory: float = 4000.
+    initguess: str = 'minao'
+    UR: bool = False
+    MP2: bool = False
+    natorb: bool = False
+    casci: bool = False
+    ccsd: bool = False
+    casscf: bool = False
+    integrals_natorb: bool = False
+    integrals_casscf: bool = False
+    verbose: bool = False
+    nele_cas: int = None
+    norb_cas: int = None
+    potfile: str = None
+
+
+class Molecule(BaseModel):
+    energies: dict
+    num_orbitals: int
+    num_electrons: int
+    hpq: IntegralsData
+    hpqrs: IntegralsData
+
+
+@app.get("/status")
+async def get_status():
+    return {"status": "available"}
+
+
+@app.post("/create_molecule")
+async def create_molecule(molecule: MoleculeInput):
+    hamiltonianGenerator = hamiltonianGenerators[
+        molecule.type].get_hamiltonian_generator()
+
+    filterArgs = ['xyz', 'basis']
+    filteredArgs = {
+        k: v for (k, v) in vars(molecule).items() if k not in filterArgs
+    }
+    filteredArgs['cache_data'] = False
+    res = hamiltonianGenerator.generate(molecule.xyz, molecule.basis,
+                                        **filteredArgs)
+    return Molecule(energies=res['energies'],
+                    num_orbitals=res['num_orbitals'],
+                    num_electrons=res['num_electrons'],
+                    hpq=IntegralsData(data=res['hpq']['data']),
+                    hpqrs=IntegralsData(data=res['hpqrs']['data']))
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000, log_level='critical')
+#INFO: ******************** input file end ********************
+
+
+System: uname_result(system='Linux', node='adroit-vis.princeton.edu', release='4.18.0-553.34.1.el8_10.x86_64', version='#1 SMP Mon Dec 16 04:25:43 EST 2024', machine='x86_64')  Threads 64
+Python 3.11.8 | packaged by conda-forge | (main, Feb 16 2024, 20:53:32) [GCC 12.3.0]
+numpy 1.26.4  scipy 1.15.2  h5py 3.13.0
+Date: Mon Apr  7 19:10:54 2025
+PySCF version 2.8.0
+PySCF path  /scratch/network/er4138/cudaq-env/lib/python3.11/site-packages/pyscf
+
+[CONFIG] conf_file None
+[INPUT] verbose = 4
+[INPUT] num. atoms = 2
+[INPUT] num. electrons = 14
+[INPUT] charge = 0
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry False subgroup None
+[INPUT] Mole.unit = angstrom
+[INPUT] Symbol           X                Y                Z      unit          X                Y                Z       unit  Magmom
+[INPUT]  1 N      0.000000000000   0.000000000000   0.560000000000 AA    0.000000000000   0.000000000000   1.058246629756 Bohr   0.0
+[INPUT]  2 N      0.000000000000   0.000000000000  -0.560000000000 AA    0.000000000000   0.000000000000  -1.058246629756 Bohr   0.0
+
+nuclear repulsion = 23.15150297775
+number of shells = 6
+number of NR pGTOs = 30
+number of NR cGTOs = 10
+basis = sto-3g
+ecp = {}
+CPU time:         3.29
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 100
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = N 0-pyscf.chk
+max_memory 4000 MB (current use 135 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.588573871557
+  HOMO = -0.321262336007019  LUMO = 0.153443532657021
+cycle= 1 E= -107.499876114894  delta_E= 0.0887  |g|= 0.0455  |ddm|= 2.35
+  HOMO = -0.533085408894162  LUMO = 0.271530429116205
+cycle= 2 E= -107.499984873774  delta_E= -0.000109  |g|= 0.00377  |ddm|= 0.0294
+  HOMO = -0.533647619619454  LUMO = 0.271333072963762
+cycle= 3 E= -107.499987907038  delta_E= -3.03e-06  |g|= 0.000508  |ddm|= 0.00701
+  HOMO = -0.533761770580434  LUMO = 0.271297194202625
+cycle= 4 E= -107.4999879992  delta_E= -9.22e-08  |g|= 1.04e-08  |ddm|= 0.00149
+  HOMO = -0.533761762925874  LUMO = 0.271297203507338
+cycle= 5 E= -107.499987999199  delta_E= 1.14e-13  |g|= 7.09e-13  |ddm|= 1.79e-08
+  HOMO = -0.533761762925178  LUMO = 0.271297203508066
+Extra cycle  E= -107.4999879992  delta_E= -1.71e-13  |g|= 1.58e-13  |ddm|= 1.54e-12
+converged SCF energy = -107.4999879992
+
+******** CASCI flags ********
+CAS (1e+1e, 3o), ncore = 6, nvir = 1
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.98988314 0.00505843 0.00505843]
+CASCI converged
+CASCI E = -107.503779688529  E(CI) = -1.65433678040155  S^2 = 0.0000000
+
+******** <class 'pyscf.cc.ccsd.CCSD'> ********
+CC2 = 0
+CCSD nocc = 1, nmo = 3
+frozen orbitals [0, 1, 2, 3, 4, 5, 9]
+max_cycle = 100
+direct = 0
+conv_tol = 1e-07
+conv_tol_normt = 1e-05
+diis_space = 6
+diis_start_cycle = 0
+diis_start_energy_diff = 1e+09
+max_memory 4000 MB (current use 207 MB)
+Init t2, MP2 energy = -107.501744261849  E_corr(MP2) -0.00175626264965549
+Init E_corr(CCSD) = -0.00175626264965549
+cycle = 1  E_corr(CCSD) = -0.00270126677762828  dE = -0.000945004128  norm(t1,t2) = 0.0177709
+cycle = 2  E_corr(CCSD) = -0.00320816612636411  dE = -0.000506899349  norm(t1,t2) = 0.00953231
+cycle = 3  E_corr(CCSD) = -0.0037925400894463  dE = -0.000584373963  norm(t1,t2) = 0.00510453
+cycle = 4  E_corr(CCSD) = -0.00379181035261453  dE = 7.29736832e-07  norm(t1,t2) = 7.44806e-06
+cycle = 5  E_corr(CCSD) = -0.00379175448903569  dE = 5.58635788e-08  norm(t1,t2) = 1.05951e-06
+CCSD converged
+E(CCSD) = -107.5037797536886  E_corr = -0.003791754489035689
