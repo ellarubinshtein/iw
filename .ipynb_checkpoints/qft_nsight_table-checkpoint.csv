@@ -1,0 +1,11 @@
+Demangled Name,A100,V100
+..BitExtractorByWarpVoting..,465.24,183.2
+..constMatApplKernel_Relocate..,73.9,0.0
+..constMatApplKernel_cc70..,0.0,163.42
+..constMatApplKernel_cc70_Relocate..,0.0,127.38
+..constMatApplLoopKernel..,24.36,20.8
+..constMatApplShTargetsKernel..,248.09,0.0
+..matmulKernel_diagonal..,0.0,18.45
+..naivePermutingSetKernel..,0.0,0.0
+..setZeroStateKernel..,11.08,13.1
+..shmemPermutingSetKernel..,0.15,0.05

@@ -1,0 +1,10 @@
+Demangled Name,A100,V100
+..constMatApplLoopKernel..,24.35,21.13
+..calculateAbs2SumIn10BitSegmentsKernel..,11.69,9.89
+..setZeroStateKernel..,11.09,13.3
+..DeviceRadixSortSingleTileKernel..,0.02,0.03
+..calculateCumulativeSumInPlace..,0.02,0.02
+..applyPrevCumsumKernel..,0.02,0.02
+..intervalCumulativeSumKernel..,0.01,0.01
+..revertToRandnumOrder..,0.0,0.0
+..custatevecSamplerOutput_t..,0.0,0.0

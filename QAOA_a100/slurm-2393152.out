@@ -1,0 +1,404 @@
+Number of qubits:  20
+Number of pool operator:  1770
+Step:  1
+Norm of the gradient:  6.959524420681631
+Mixer pool at step 1
+['IIIIIIIIIIIIIIIIIIZY']
+Number of layers:  1
+Result from the step  1
+Optmized Energy:  -12.49999999998478
+dE= : 12.49999999998478
+
+
+Step:  2
+Norm of the gradient:  6.8097613670094255
+Mixer pool at step 2
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ']
+Number of layers:  2
+Result from the step  2
+Optmized Energy:  -12.999999999960943
+dE= : 0.49999999997616307
+
+
+Step:  3
+Norm of the gradient:  6.656065421304469
+Mixer pool at step 3
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ']
+Number of layers:  3
+Result from the step  3
+Optmized Energy:  -13.499999999953854
+dE= : 0.49999999999291056
+
+
+Step:  4
+Norm of the gradient:  6.0155072348988545
+Mixer pool at step 4
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY']
+Number of layers:  4
+Result from the step  4
+Optmized Energy:  -13.99999999988712
+dE= : 0.4999999999332658
+
+
+Step:  5
+Norm of the gradient:  5.669217815670316
+Mixer pool at step 5
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY']
+Number of layers:  5
+Result from the step  5
+Optmized Energy:  -14.499999999982915
+dE= : 0.5000000000957954
+
+
+Step:  6
+Norm of the gradient:  5.486173246764115
+Mixer pool at step 6
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ']
+Number of layers:  6
+Result from the step  6
+Optmized Energy:  -14.999999999970655
+dE= : 0.4999999999877396
+
+
+Step:  7
+Norm of the gradient:  5.392412710423794
+Mixer pool at step 7
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY']
+Number of layers:  7
+Result from the step  7
+Optmized Energy:  -15.499999999950106
+dE= : 0.4999999999794511
+
+
+Step:  8
+Norm of the gradient:  5.2004795924547675
+Mixer pool at step 8
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY']
+Number of layers:  8
+Result from the step  8
+Optmized Energy:  -15.999999999986366
+dE= : 0.5000000000362608
+
+
+Step:  9
+Norm of the gradient:  4.797915231417939
+Mixer pool at step 9
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY']
+Number of layers:  9
+Result from the step  9
+Optmized Energy:  -16.499999999992585
+dE= : 0.500000000006219
+
+
+Step:  10
+Norm of the gradient:  5.386092068866602
+Mixer pool at step 10
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY']
+Number of layers:  10
+Result from the step  10
+Optmized Energy:  -17.499999999987235
+dE= : 0.9999999999946496
+
+
+Step:  11
+Norm of the gradient:  4.000474805007185
+Mixer pool at step 11
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ']
+Number of layers:  11
+Result from the step  11
+Optmized Energy:  -17.999999999953825
+dE= : 0.4999999999665903
+
+
+Step:  12
+Norm of the gradient:  3.162277662823127
+Mixer pool at step 12
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY']
+Number of layers:  12
+Result from the step  12
+Optmized Energy:  -18.49999999996699
+dE= : 0.5000000000131664
+
+
+Step:  13
+Norm of the gradient:  3.740896023817987
+Mixer pool at step 13
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY', 'IIIIIIIIIIIIZY']
+Number of layers:  13
+Result from the step  13
+Optmized Energy:  -19.49999999998561
+dE= : 1.0000000000186198
+
+
+Step:  14
+Norm of the gradient:  0.03463318551953288
+Mixer pool at step 14
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY', 'IIIIIIIIIIIIZY', 'IIIIIIIIIIIIIIIIYY']
+Number of layers:  14
+Result from the step  14
+Optmized Energy:  -19.999999999905512
+dE= : 0.4999999999199005
+
+
+Step:  15
+Norm of the gradient:  0.014142166681106051
+Mixer pool at step 15
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY', 'IIIIIIIIIIIIZY', 'IIIIIIIIIIIIIIIIYY', 'IIIIIIIIIIIIIIXX']
+Number of layers:  15
+Result from the step  15
+Optmized Energy:  -20.253324378022256
+dE= : 0.25332437811674424
+
+
+Step:  16
+Norm of the gradient:  1.2539064803151463
+Mixer pool at step 16
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY', 'IIIIIIIIIIIIZY', 'IIIIIIIIIIIIIIIIYY', 'IIIIIIIIIIIIIIXX', 'IIIIIIIIIIIIIIIIIIXX']
+Number of layers:  16
+Result from the step  16
+Optmized Energy:  -20.4999999986376
+dE= : 0.24667562061534198
+
+
+Step:  17
+Norm of the gradient:  3.085910265313604e-05
+
+ Final Result:  
+
+Final mixer_pool:  ['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY', 'IIIIIIIIIIIIZY', 'IIIIIIIIIIIIIIIIYY', 'IIIIIIIIIIIIIIXX', 'IIIIIIIIIIIIIIIIIIXX']
+Number of layers:  16
+Number of mixer pool in each layer:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Final Energy:  -20.4999999986376
+
+ Sampling the Final ADAPT QAOA circuit 
+
+The most probable max cut:  00101010100101101010
+All bitstring from circuit sampling:  { 00001011010101010101:147 00001011010101101010:128 00001011011010010101:157 00001011011010101010:168 00011101010101010101:150 00011101010101101010:169 00011101011010010101:169 00011101011010101010:161 00101010100101010101:148 00101010100101101010:184 00101010101010010101:123 00101010101010101010:155 00111100100101010101:155 00111100100101101010:148 00111100101010010101:148 00111100101010101010:158 11000011010101010101:148 11000011010101101010:137 11000011011010010101:169 11000011011010101010:161 11010101010101010101:159 11010101010101101010:153 11010101011010010101:157 11010101011010101010:168 11100010100101010101:179 11100010100101101010:163 11100010101010010101:180 11100010101010101010:143 11110100100101010101:151 11110100100101101010:159 11110100101010010101:166 11110100101010101010:139 }
+
+CUDA-Q Version 0.10.0 (https://github.com/NVIDIA/cuda-quantum f24f4f78673e0bc330fec90a88251321432be970)
+GPU: A100
+	Command being timed: "python3 QAOA.py 20"
+	User time (seconds): 526.35
+	System time (seconds): 13.01
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:08.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 918560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 1713296
+	Voluntary context switches: 46227
+	Involuntary context switches: 8495
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of qubits:  20
+Number of pool operator:  1770
+Step:  1
+Norm of the gradient:  6.959524420681631
+Mixer pool at step 1
+['IIIIIIIIIIIIIIIIIIZY']
+Number of layers:  1
+Result from the step  1
+Optmized Energy:  -12.49999999998478
+dE= : 12.49999999998478
+
+
+Step:  2
+Norm of the gradient:  6.8097613670094255
+Mixer pool at step 2
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ']
+Number of layers:  2
+Result from the step  2
+Optmized Energy:  -12.999999999960943
+dE= : 0.49999999997616307
+
+
+Step:  3
+Norm of the gradient:  6.656065421304469
+Mixer pool at step 3
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ']
+Number of layers:  3
+Result from the step  3
+Optmized Energy:  -13.499999999953854
+dE= : 0.49999999999291056
+
+
+Step:  4
+Norm of the gradient:  6.0155072348988545
+Mixer pool at step 4
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY']
+Number of layers:  4
+Result from the step  4
+Optmized Energy:  -13.99999999988712
+dE= : 0.4999999999332658
+
+
+Step:  5
+Norm of the gradient:  5.669217815670316
+Mixer pool at step 5
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY']
+Number of layers:  5
+Result from the step  5
+Optmized Energy:  -14.499999999982915
+dE= : 0.5000000000957954
+
+
+Step:  6
+Norm of the gradient:  5.486173246764115
+Mixer pool at step 6
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ']
+Number of layers:  6
+Result from the step  6
+Optmized Energy:  -14.999999999970655
+dE= : 0.4999999999877396
+
+
+Step:  7
+Norm of the gradient:  5.392412710423794
+Mixer pool at step 7
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY']
+Number of layers:  7
+Result from the step  7
+Optmized Energy:  -15.499999999950106
+dE= : 0.4999999999794511
+
+
+Step:  8
+Norm of the gradient:  5.2004795924547675
+Mixer pool at step 8
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY']
+Number of layers:  8
+Result from the step  8
+Optmized Energy:  -15.999999999986366
+dE= : 0.5000000000362608
+
+
+Step:  9
+Norm of the gradient:  4.797915231417939
+Mixer pool at step 9
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY']
+Number of layers:  9
+Result from the step  9
+Optmized Energy:  -16.499999999992585
+dE= : 0.500000000006219
+
+
+Step:  10
+Norm of the gradient:  5.386092068866602
+Mixer pool at step 10
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY']
+Number of layers:  10
+Result from the step  10
+Optmized Energy:  -17.499999999987235
+dE= : 0.9999999999946496
+
+
+Step:  11
+Norm of the gradient:  4.000474805007185
+Mixer pool at step 11
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ']
+Number of layers:  11
+Result from the step  11
+Optmized Energy:  -17.999999999953825
+dE= : 0.4999999999665903
+
+
+Step:  12
+Norm of the gradient:  3.162277662823127
+Mixer pool at step 12
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY']
+Number of layers:  12
+Result from the step  12
+Optmized Energy:  -18.49999999996699
+dE= : 0.5000000000131664
+
+
+Step:  13
+Norm of the gradient:  3.740896023817987
+Mixer pool at step 13
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY', 'IIIIIIIIIIIIZY']
+Number of layers:  13
+Result from the step  13
+Optmized Energy:  -19.49999999998561
+dE= : 1.0000000000186198
+
+
+Step:  14
+Norm of the gradient:  0.03463318551953288
+Mixer pool at step 14
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY', 'IIIIIIIIIIIIZY', 'IIIIIIIIIIIIIIIIYY']
+Number of layers:  14
+Result from the step  14
+Optmized Energy:  -19.999999999905512
+dE= : 0.4999999999199005
+
+
+Step:  15
+Norm of the gradient:  0.014142166681106051
+Mixer pool at step 15
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY', 'IIIIIIIIIIIIZY', 'IIIIIIIIIIIIIIIIYY', 'IIIIIIIIIIIIIIXX']
+Number of layers:  15
+Result from the step  15
+Optmized Energy:  -20.253324378022256
+dE= : 0.25332437811674424
+
+
+Step:  16
+Norm of the gradient:  1.2539064803151463
+Mixer pool at step 16
+['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY', 'IIIIIIIIIIIIZY', 'IIIIIIIIIIIIIIIIYY', 'IIIIIIIIIIIIIIXX', 'IIIIIIIIIIIIIIIIIIXX']
+Number of layers:  16
+Result from the step  16
+Optmized Energy:  -20.4999999986376
+dE= : 0.24667562061534198
+
+
+Step:  17
+Norm of the gradient:  3.085910265313604e-05
+
+ Final Result:  
+
+Final mixer_pool:  ['IIIIIIIIIIIIIIIIIIZY', 'YIIIZ', 'IIIIIYZ', 'IIIIIIIIIIIIIIIIZY', 'IIZIIIIY', 'IYIIZ', 'IIIIIIIIIIZY', 'IIIIIIIIIIIIIIZY', 'IIZIIIIIIY', 'IIZIIIIIY', 'IIIYIIZ', 'IIIIIIIIIIIZY', 'IIIIIIIIIIIIZY', 'IIIIIIIIIIIIIIIIYY', 'IIIIIIIIIIIIIIXX', 'IIIIIIIIIIIIIIIIIIXX']
+Number of layers:  16
+Number of mixer pool in each layer:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Final Energy:  -20.4999999986376
+
+ Sampling the Final ADAPT QAOA circuit 
+
+The most probable max cut:  11000011010101101010
+All bitstring from circuit sampling:  { 00001011010101010101:128 00001011010101101010:149 00001011011010010101:140 00001011011010101010:159 00011101010101010101:171 00011101010101101010:163 00011101011010010101:154 00011101011010101010:171 00101010100101010101:161 00101010100101101010:153 00101010101010010101:153 00101010101010101010:126 00111100100101010101:125 00111100100101101010:165 00111100101010010101:171 00111100101010101010:162 11000011010101010101:128 11000011010101101010:181 11000011011010010101:175 11000011011010101010:155 11010101010101010101:170 11010101010101101010:167 11010101011010010101:155 11010101011010101010:157 11100010100101010101:160 11100010100101101010:165 11100010101010010101:159 11100010101010101010:138 11110100100101010101:167 11110100100101101010:166 11110100101010010101:150 11110100101010101010:156 }
+
+CUDA-Q Version 0.10.0 (https://github.com/NVIDIA/cuda-quantum f24f4f78673e0bc330fec90a88251321432be970)
+GPU: A100
+	Command being timed: "python3 QAOA.py 20"
+	User time (seconds): 520.84
+	System time (seconds): 12.82
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:01.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 924540
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1745951
+	Voluntary context switches: 41701
+	Involuntary context switches: 8986
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

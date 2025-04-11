@@ -1,0 +1,15 @@
+Demangled Name,A100,V100
+..DeviceRadixSortExclusiveSumKernel..,2.78,3.04
+..DeviceRadixSortHistogramKernel..,7.17,9.38
+..DeviceRadixSortOnesweepKernel..,108.49,173.91
+..applyExpKernelOnZBasis..,31613.57,34599.33
+..applyExpKernelwithXY..,3367.38,3742.64
+..blockwiseCumulativeSumKernel..,3.36,6.11
+..constMatApplKernel..,0.0,1142.52
+..custatevecSamplerOutput_t..,2.08,2.3
+..expectationPauliKernel..,7544.0199999999995,12173.53
+..expectationPauliReduceKernel..,2913.55,3385.43
+..revertToRandnumOrder..,2.59,3.04
+..sampleKernel..BitPermutation..,4.38,4.58
+..setZeroStateKernel..,1944.86,2124.9500000000003
+..shmemMatApplKernel..,10453.95,7608.63
